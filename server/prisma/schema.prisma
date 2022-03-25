@@ -70,6 +70,7 @@ model Proba {
   active    Boolean?
   createdAt DateTime @default(now())
   id        String   @id @default(cuid())
+  location  String?
   subtitle  String?
   title     String?
   updatedAt DateTime @updatedAt

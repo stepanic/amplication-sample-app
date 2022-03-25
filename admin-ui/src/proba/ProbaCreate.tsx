@@ -12,6 +12,7 @@ export const ProbaCreate = (props: CreateProps): React.ReactElement => {
     <Create {...props}>
       <SimpleForm>
         <BooleanInput label="Active" source="active" />
+        <TextInput label="Location" source="location" />
         <TextInput label="Subtitle" source="subtitle" />
         <TextInput label="Title" source="title" />
       </SimpleForm>
