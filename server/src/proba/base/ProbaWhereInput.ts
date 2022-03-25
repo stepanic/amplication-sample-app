@@ -49,6 +49,17 @@ class ProbaWhereInput {
   @Field(() => StringNullableFilter, {
     nullable: true,
   })
+  location?: StringNullableFilter;
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
   subtitle?: StringNullableFilter;
 
   @ApiProperty({

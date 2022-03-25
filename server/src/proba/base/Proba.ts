@@ -51,6 +51,17 @@ class Proba {
   @Field(() => String, {
     nullable: true,
   })
+  location!: string | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
   subtitle!: string | null;
 
   @ApiProperty({

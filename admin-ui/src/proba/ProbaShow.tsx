@@ -15,6 +15,7 @@ export const ProbaShow = (props: ShowProps): React.ReactElement => {
         <BooleanField label="Active" source="active" />
         <DateField source="createdAt" label="Created At" />
         <TextField label="ID" source="id" />
+        <TextField label="Location" source="location" />
         <TextField label="Subtitle" source="subtitle" />
         <TextField label="Title" source="title" />
         <DateField source="updatedAt" label="Updated At" />
